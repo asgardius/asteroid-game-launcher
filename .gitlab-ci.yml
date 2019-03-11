@@ -1,0 +1,7 @@
+stages:
+  - none
+
+build_html:
+  stage: none
+  script:
+    - echo "No CI"
