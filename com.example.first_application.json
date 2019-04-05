@@ -1,0 +1,38 @@
+{
+    "app-id": "com.example.first_application",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "master",
+    "sdk": "org.gnome.Sdk",
+    "command": "your-first-application",
+    "finish-args": [
+        "--socket=wayland"
+    ],
+    "build-options": {
+        "env": {
+            "V": "1"
+        }
+    },
+    "cleanup": [
+        "/lib/pkgconfig",
+        "/man",
+        "/share/doc",
+        "/share/gtk-doc",
+        "/share/man",
+        "/share/pkgconfig"
+    ],
+    "modules": [
+        {
+            "name": "first-application",
+            "buildsystem": "meson",
+            "builddir": true,
+            "subdir": "First_Application",
+            "sources": [
+                {
+                    "branch": "master",
+                    "type": "git",
+                    "url": "https://source.puri.sm/david.boddie/tutorials.git"
+                }
+            ]
+        }
+    ]
+}

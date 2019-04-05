@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<svg xmlns="http://www.w3.org/2000/svg" height="64" version="1.1" width="64"
+     viewBox="0 0 100 100">
+
+  <rect x="0" y="0" width="100" height="100" stroke="none" fill="#8080c0" />
+  <rect x="0" y="60" width="100" height="40" stroke="none" fill="#80c080" />
+  <circle cx="70" cy="30" r="20" stroke="none" fill="#f0f080" />
+</svg>
