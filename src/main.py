@@ -16,6 +16,7 @@ class Application(Gtk.Application):
     def __init__(self):
         super().__init__(application_id='com.example.first_application')
         GLib.set_application_name('Your First Application')
+        GLib.set_prgname('com.example.first_application')
 
     def do_activate(self):
         window = Gtk.ApplicationWindow(application=self)
