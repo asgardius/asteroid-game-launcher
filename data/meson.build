@@ -6,5 +6,5 @@ configure_file(
   install_dir: join_paths(get_option('datadir'), 'applications')
 )
 
-install_data('asgardius.page.asteroidlauncher.svg',
+install_data('asgardius.page.asteroidlauncher.png',
   install_dir: join_paths(get_option('datadir'), 'icons', 'hicolor', 'scalable', 'apps'))
