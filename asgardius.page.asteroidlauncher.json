@@ -1,15 +1,15 @@
 {
-    "app-id": "com.example.first_application",
+    "app-id": "asgardius.page.asteroidlauncher",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.34",
+    "runtime-version": "45",
     "sdk": "org.gnome.Sdk",
-    "command": "your-first-application",
+    "command": "asteroid-game-launcher",
     "finish-args": [
         "--socket=wayland"
     ],
     "modules": [
         {
-            "name": "first_application",
+            "name": "asteroid-game-launcher",
             "buildsystem": "meson",
             "builddir": true,
             "sources": [

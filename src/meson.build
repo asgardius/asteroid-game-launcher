@@ -1,6 +1,6 @@
 configure_file(
   input: 'main.py',
-  output: 'your-first-application',
+  output: 'asteroid-game-launcher',
   copy: true,
   install: true,
   install_dir: get_option('bindir')

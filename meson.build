@@ -1,5 +1,5 @@
-project('first-application',
-  version: '0.1.0',
+project('asteroid-game-launcher',
+  version: '0.0.0',
   meson_version: '>= 0.48.0',
 )
 

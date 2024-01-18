@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Your First Application
-Icon=com.example.first_application
-Exec=your-first-application
-Terminal=false
-Type=Application
-Categories=
-StartupNotify=false
