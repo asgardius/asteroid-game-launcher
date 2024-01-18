@@ -16,8 +16,13 @@ A launcher for a space themed game
 
 # Install instructions
 To build this app
+
 meson . _build
+
 To install
+
 sudo ninja -C _build install
+
 To uninstall
+
 sudo ninja -C _build uninstall
